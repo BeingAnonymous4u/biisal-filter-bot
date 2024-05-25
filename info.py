@@ -96,10 +96,10 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/desidude4u_open/129')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002197809722'))
-VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002197809722'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '1002197809722'))
+VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002244839279'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002197809722'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1002197809722'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1002244839279'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
