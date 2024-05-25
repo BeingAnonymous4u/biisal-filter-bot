@@ -46,7 +46,7 @@ REPO_OWNER = "Biisal"
 SESSION = environ.get('SESSION', 'radhe-radhe2')
 API_ID = int(environ.get('API_ID', '29176035'))
 API_HASH = environ.get('API_HASH', '35516221c9dd80801bcc2288adcc5d26')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6823595216:AAHuFD9nA4irsVgkP3qDeut8ikIqaHTuS98") #if you are going to bot token here make sure your repo is private..
+BOT_TOKEN = environ.get('BOT_TOKEN', "7158225681:AAF3Zb_4JpoGa7rbdqBGtUy5apVDI_EM6Gs") #if you are going to bot token here make sure your repo is private..
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 
 # Bot settings
