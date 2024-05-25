@@ -44,9 +44,9 @@ REPO_OWNER = "Biisal"
 
 # Bot information
 SESSION = environ.get('SESSION', 'radhe-radhe2')
-API_ID = int(environ.get('API_ID', '25467916'))
-API_HASH = environ.get('API_HASH', '57c177242d037099793c265d0e6457c9')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7126708211:AAEn4R1ktcDeqNecaSnM-jjbQ9M8QcIgv7E") #if you are going to bot token here make sure your repo is private..
+API_ID = int(environ.get('API_ID', '29176035'))
+API_HASH = environ.get('API_HASH', '35516221c9dd80801bcc2288adcc5d26')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6823595216:AAHuFD9nA4irsVgkP3qDeut8ikIqaHTuS98") #if you are going to bot token here make sure your repo is private..
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 
 # Bot settings
@@ -59,8 +59,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6246830040').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002075903430').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2117119246').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '--1002230138822').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6941610925 6246830040').split()]
@@ -75,7 +75,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://immortal:5412ascs@immortal.jehlw9n.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://userbot:userbot@cluster0.kwlntxu.mongodb.net/test?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "bisal-ki-bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -96,10 +96,10 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/desidude4u_open/129')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002080693695'))
-VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002080693695'))
-NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002080693695'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1002080693695'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002164126969'))
+VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002010768345'))
+NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002164126969'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1002164126969'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
